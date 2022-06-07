@@ -1,0 +1,70 @@
+
+###
+
+GET http://localhost:5000
+
+
+###
+
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "username": "test",
+    "email": "test1@gmail.com",
+    "password": "test123"
+}
+
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "test1@gmail.com",
+    "password": "test123"
+}
+
+###
+
+POST http://localhost:5000/upload
+Content-Type: application/json
+
+{
+    "jsonData": [
+        {
+            "userId": 11,
+            "id": 11,
+            "title": "labeltest",
+            "body": "labeltest1"
+        },
+        {
+            "userId": 22,
+            "id": 22,
+            "title": "labeltest2",
+            "body": "labeltest2"
+        },
+        {
+            "userId": 33,
+            "id": 33,
+            "title": "labeltest3",
+            "body": "labeltest3"
+        },
+        {
+            "userId": 44,
+            "id": 44,
+            "title": "labeltest4",
+            "body": "labeltest4"
+        }
+    ]
+}
+
+###
+
+GET http://localhost:5000/json
+
+
+###
+
+GET http://localhost:5000/user
+

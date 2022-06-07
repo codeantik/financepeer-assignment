@@ -1,0 +1,93 @@
+
+
+.login {
+    width: 50%;
+    margin: 0px auto;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* margin: 0px auto; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease-out;
+}
+
+
+.login > h1 {
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #e5d76e;
+}
+
+.login form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+
+.login form label {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.login form input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #e5d76e;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /* background-color: #f3f3f3; */
+}
+
+.login form button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #e5d76e;
+    background-color: #e5d76e;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.login form button:hover {
+    background-color: #fff;
+    color: #e5d76e;
+}
+
+.error {
+    width: 80%;
+    /* background-color: blue; */
+    color: red;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.navigate {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .login, .login form, .login form label, .login form input {
+        width: 100%;
+    }
+
+}
