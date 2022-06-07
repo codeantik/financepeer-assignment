@@ -1,5 +1,5 @@
-### Server Link - https://admitkard-assignment-codeantik.vercel.app
-### Client Link - https://admitkard-codeantik.vercel.app
+### Server Link - 
+### Client Link - 
 
 # Clone the repository
 
