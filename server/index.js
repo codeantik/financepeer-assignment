@@ -7,8 +7,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const Auth = require('./models/auth.model');
 const User = require('./models/user.model');
-const { v4: uuidv4 } = require('uuid');
-const { json } = require('express');
+const express = require('express');
 require('dotenv').config();
 
 const app = express();
