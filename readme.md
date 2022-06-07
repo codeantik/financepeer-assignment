@@ -3,7 +3,7 @@
 
 # Clone the repository
 
-    git clone https://github.com/codeantik/admitkard-assignment.git
+    git clone [https://github.com/codeantik/admitkard-assignment.git](https://github.com/codeantik/financepeer-assignment.git)
 
 # To start the server:
 
