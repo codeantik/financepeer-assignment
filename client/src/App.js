@@ -15,7 +15,7 @@ import Register from './components/register';
 import Login from './components/login';
 import Upload from './components/upload';
 
-const deployedLink = 'https://react-image-uploader.herokuapp.com/';
+const deployedLink = 'https://financepeer-server.onrender.com/';
 const localLink = 'http://localhost:5000';
 
 export const config = {
